@@ -257,4 +257,13 @@ if len(budget_generos) > 0:
 else:
     st.warning("No hay datos suficientes para mostrar este gráfico.")
 
+# CONCLUSIONES FINALES
+st.subheader("📌 Conclusiones finales")
 
+st.markdown("""
+- Los géneros más rentables no siempre son los que tienen mayores presupuestos.
+- El presupuesto medio ha cambiado con el paso de las décadas.
+- Algunos directores destacan por tener una recaudación media más alta.
+- Las películas con mejor puntuación suelen recaudar más dinero de media, aunque no siempre ocurre.
+- La duración puede influir en la recaudación, pero no es el único factor de éxito.
+""")
